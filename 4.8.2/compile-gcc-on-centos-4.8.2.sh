@@ -3,11 +3,11 @@
 # Download and install it.
 mkdir /shared/tools/gcc/4.8.2
 cd /shared/tools/gcc/4.8.2
-wget http://projects.joelinoff.com/gcc-4.8.2/bld.sh
+wget https://raw.github.com/simon-liu/compile-gcc-on-centos/master/4.8.2/bld.sh
 chmod a+x bld.sh
  
 # Optionally there is also a very simple Makefile.
-wget http://projects.joelinoff.com/gcc-4.8.2/Makefile
+wget https://raw.github.com/simon-liu/compile-gcc-on-centos/master/4.8.2/Makefile
  
 # bld.sh doesn't check for packages
 # This is one that I needed.
