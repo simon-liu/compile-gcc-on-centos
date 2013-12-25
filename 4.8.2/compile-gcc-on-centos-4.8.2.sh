@@ -13,7 +13,7 @@ wget https://raw.github.com/simon-liu/compile-gcc-on-centos/master/4.8.2/Makefil
 # This is one that I needed.
 # if not installed you will see a missing gnu/stabs-32.h error late in the process.
 # I also had to install texinfo, you may have to install others.
-sudo yum install -y glibc-devel.i686 texinfo
+sudo yum install -y glibc-devel.i686 texinfo bison
 
 # You can run bld.sh directly or you can simply type "make" if you downloaded
 # the Makefile.
