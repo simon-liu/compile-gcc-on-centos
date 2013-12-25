@@ -3,7 +3,7 @@
 # Date: 2013-10-26
 #
 # This downloads, builds and installs the gcc-4.8.2 compiler and boost
-# 1.54. It handles the dependent packages like gmp-5.1.2, mpfr-3.1.2,
+# 1.55. It handles the dependent packages like gmp-5.1.2, mpfr-3.1.2,
 # ppl-1.0 and cloog-0.18.0.
 #
 # To install gcc-4.8.2 in ~/tmp/gcc-4.8.2/rtf/bin you would run this
@@ -313,7 +313,7 @@ ARS=(
     http://www.bastoul.net/cloog/pages/download/cloog-0.18.0.tar.gz
     http://ftp.gnu.org/gnu/gcc/gcc-4.8.2/gcc-4.8.2.tar.bz2
     http://ftp.gnu.org/gnu/binutils/binutils-2.23.2.tar.bz2
-    http://sourceforge.net/projects/boost/files/boost/1.54.0/boost_1_54_0.tar.bz2
+    http://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.tar.bz2
     #
     # Why glibc is disabled (for now).
     #
