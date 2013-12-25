@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Download and install it.
-mkdir /shared/tools/gcc/4.8.2
+mkdir -p /shared/tools/gcc/4.8.2
 cd /shared/tools/gcc/4.8.2
 wget https://raw.github.com/simon-liu/compile-gcc-on-centos/master/4.8.2/bld.sh
 chmod a+x bld.sh
